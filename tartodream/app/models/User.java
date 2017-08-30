@@ -5,12 +5,9 @@ import play.data.validation.Password;
 import play.data.validation.Required;
 import play.data.validation.Unique;
 import play.db.jpa.Model;
-import play.i18n.Messages;
 
 import javax.persistence.Entity;
-import javax.persistence.OneToMany;
 import java.util.Date;
-import java.util.List;
 
 @Entity
 public class User extends Model {
